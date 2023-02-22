@@ -32,15 +32,15 @@ static void Task5()
 {
     var data = Console.ReadLine();
 
-    short shortVariable = short.Parse(data);
-    ulong ulongVariable = ulong.Parse(data);
-    char charVariable = char.Parse(data);
-    double doubleVariable = double.Parse(data);
+    var shortVariable = short.Parse(data);
+    var ulongVariable = ulong.Parse(data);
+    var charVariable = char.Parse(data);
+    var doubleVariable = double.Parse(data);
 }
 
 static void Task6()
 {
-    int variable = 5*7;
+    var variable = 5 * 7;
     Console.WriteLine($"Result: {--variable}");
 }
 
@@ -55,23 +55,26 @@ static void Task7()
 static void Task8()
 {
     var A = int.Parse(Console.ReadLine());
-    if ((A<50&&A!=37&&A>32)||A is 0 or 15) Console.WriteLine("Working");
+    if ((A < 50 && A != 37 && A > 32) || A is 0 or 15) Console.WriteLine("Working");
 }
 
 static void Task9()
 {
     Console.WriteLine("Input: number1, number2, operation");
-    String[] words = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+    var words = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
     switch (words[2])
     {
-        case "-": Console.WriteLine($"Result = {float.Parse(words[0]) - float.Parse(words[1])}");
+        case "-":
+            Console.WriteLine($"Result = {float.Parse(words[0]) - float.Parse(words[1])}");
             break;
-        case "*": Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
+        case "*":
+            Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
             break;
-        case "/": Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
+        case "/":
+            Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
             break;
-        case "+": Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
+        case "+":
+            Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
             break;
     }
-    
 }
