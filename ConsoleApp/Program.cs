@@ -78,5 +78,3 @@ static void Task9()
             break;
     }
 }
-
-Task9();
