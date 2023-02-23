@@ -71,10 +71,12 @@ static void Task9()
             Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
             break;
         case "/":
-            Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
+            Console.WriteLine($"Result = {float.Parse(words[0]) / float.Parse(words[1])}");
             break;
         case "+":
-            Console.WriteLine($"Result = {float.Parse(words[0]) * float.Parse(words[1])}");
+            Console.WriteLine($"Result = {float.Parse(words[0]) + float.Parse(words[1])}");
             break;
     }
 }
+
+Task9();
