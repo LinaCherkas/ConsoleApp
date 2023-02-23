@@ -20,11 +20,11 @@ static void Task4()
 {
     sbyte variable = -34;
     byte variable1 = 4;
-    var name = "Hello";
-    var variable3 = 'R';
-    var variable4 = 23.093433222;
-    var variable5 = 40000;
-    var variable6 = true;
+    string name = "Hello";
+    char variable3 = 'R';
+    double variable4 = 23.093433222;
+    int variable5 = 40000;
+    bool variable6 = true;
     byte variable7 = 0;
 }
 
