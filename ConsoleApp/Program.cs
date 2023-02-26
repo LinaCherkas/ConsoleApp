@@ -1,3 +1,3 @@
-﻿
+﻿using ConsoleApp.Task5;
 
-Console.WriteLine("Hello, World!");
+Task5Runner.Runner();
