@@ -24,4 +24,9 @@ public class Employee
     {
         Console.WriteLine("I'm working...");
     }
+    
+    public virtual void Responsibilities()
+    {
+        Console.WriteLine("Employee responsibilities");
+    }
 }

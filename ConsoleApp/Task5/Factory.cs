@@ -7,7 +7,11 @@ public class Factory
         Name = name;
         Employees = employees;
     }
-
+    
+    public Factory(string name)
+    {
+        Name = name;
+    }
     private string Name { get; }
     private List<Employee.Employee> Employees { get; }
 
